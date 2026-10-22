@@ -1,0 +1,8 @@
+.DS_Store
+.claude/
+review/
+*.zip
+kie-tasks.txt
+Design-Konzept.md
+bau/index.src.vor-korrektur.html
+__pycache__/

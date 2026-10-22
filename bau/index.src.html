@@ -1,0 +1,708 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Valle Central</title>
+<meta name="description" content="Forschungswerkstatt Erdkunde LK Q1, Gruppe C: Exportobstbau, Wasserverfügbarkeit und Klimawandel im Valle Central von Zentralchile. Naturraum, Klimadaten, Nutzungssystem, Fallbeispiel, Probleme, Wirkungsgefüge, Anpassungsstrategien und Szenario 2050.">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#ECEFEC">
+<link rel="preload" href="assets/fonts/bricolage-grotesque-normal-200-800-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/fonts/fonts.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M0 26 L9 15 L13 19 L20 6 L32 26Z' fill='%231E2A2B'/%3E%3Cpath d='M17 11.5 L20 6 L23.2 11.8 L21 10.6 L19 12.4Z' fill='%23fff'/%3E%3Ccircle cx='9' cy='27' r='3' fill='%23A8132D'/%3E%3C/svg%3E">
+</head>
+<body>
+<a class="skip" href="#inhalt">Zum Inhalt springen</a>
+
+<header class="kopf">
+  <a class="marke" href="#start" aria-label="Zum Anfang">
+    <svg viewBox="0 0 32 20" aria-hidden="true"><path d="M0 18 L9 7 L13 11 L20 1 L32 18Z"/><path class="marke-schnee" d="M17 5.4 L20 1 L23 5.6 L21 4.8 L19 6.2Z"/></svg>
+    <span>Valle Central</span>
+  </a>
+  <nav class="kapitelnav" aria-label="Kapitel">
+    <details>
+      <summary><span class="kn-label">Kapitel</span> <span class="kn-aktuell" aria-live="polite">Start</span></summary>
+      <ol>
+        <li><a href="#leitfrage">Leitfrage und Hypothesen</a></li>
+        <li><a href="#naturraum">Naturraum</a></li>
+        <li><a href="#klima">Klimadaten</a></li>
+        <li><a href="#nutzung">Nutzungssystem</a></li>
+        <li><a href="#fallbeispiel">Fallbeispiel Kirschen</a></li>
+        <li><a href="#probleme">Probleme</a></li>
+        <li><a href="#wirkungsgefuege">Wirkungsgefüge</a></li>
+        <li><a href="#strategien">Anpassungsstrategien</a></li>
+        <li><a href="#szenario">Szenario 2050</a></li>
+        <li><a href="#fazit">Fazit</a></li>
+        <li><a href="#quellen">Quellen</a></li>
+      </ol>
+    </details>
+  </nav>
+</header>
+
+<div class="wasserlinie" aria-hidden="true"><span></span></div>
+
+<main id="inhalt">
+
+<!-- ============ HERO ============ -->
+<section id="start" class="hero" aria-labelledby="hero-titel">
+  <div class="hero-text">
+    <h1 id="hero-titel" class="hero-h1"><span class="zeile">Das Tal,</span> <span class="zeile">das vom Schnee lebt</span></h1>
+    <p class="hero-lead">Im Valle Central wachsen Kirschen, Trauben und Avocados für Märkte in Asien, Nordamerika und Europa. Das Wasser dafür kommt als Schnee aus den Anden. Seit 2010 fällt davon deutlich weniger. Wie kann diese Landwirtschaft bis 2050 zukunftsfähig werden?</p>
+  </div>
+
+  <div class="hero-bild">
+    <div class="zeitanzeige" aria-live="off">
+      <p class="jahr" aria-hidden="true"><span class="jahr-zahl">1990</span></p>
+      <p class="phase"><span class="phase-titel">Vor der Megadürre</span></p>
+      <dl class="phase-fakten">
+        <div><dt>Niederschlag Santiago</dt><dd class="pf-n">331 mm pro Jahr <small>Mittel 1990–2009</small></dd></div>
+        <div><dt>Schnee in den Anden</dt><dd class="pf-s">weit herab, dick</dd></div>
+        <div><dt>Plantagen</dt><dd class="pf-p">vor allem im Talboden</dd></div>
+      </dl>
+    </div>
+    {{PROFIL}}
+    <div class="zeitschalter" role="group" aria-label="Zeitpunkt im Querschnitt wählen">
+      <button type="button" data-stufe="0" aria-pressed="true">1990</button>
+      <button type="button" data-stufe="0.533" aria-pressed="false">2022</button>
+      <button type="button" data-stufe="1" aria-pressed="false">2050</button>
+    </div>
+  </div>
+  <p class="hero-hinweis" aria-hidden="true">Scrollen lässt die Zeit laufen</p>
+</section>
+
+<!-- ============ 01 LEITFRAGE ============ -->
+<section id="leitfrage" class="kap" aria-labelledby="k1">
+  <header class="kap-kopf">
+    <h2 id="k1">Eine Frage, zwei Hypothesen</h2>
+  </header>
+
+  <div class="raster">
+    <blockquote class="leitfrage">
+      <p>„Wie kann Landwirtschaft in den Subtropen auch unter zunehmendem Nutzungsdruck und Klimawandel zukunftsfähig gestaltet werden?“</p>
+    </blockquote>
+
+    <div class="prosa">
+      <p>Wasser ist die Grundlage jeder Landwirtschaft in Trockenräumen. Weltweit entfallen mehr als 70 Prozent aller Wasserentnahmen auf die Bewässerungslandwirtschaft <a class="zit" href="#q-fao2020">FAO 2020</a>. In Chile ist die Landwirtschaft nach Daten der Wasserbehörde DGA mit 72 Prozent der größte Nutzer von verbrauchtem Wasser <a class="zit" href="#q-faowb2020">FAO und Weltbank 2020</a>. Im Valle Central treffen drei Entwicklungen aufeinander: ein Obstbau, der seit Jahrzehnten für den Export wächst, eine Wasserordnung, die Wasser wie eine Ware behandelt, und eine Dürre, die seit 2010 länger anhält als jede andere seit Beginn der Messungen.</p>
+    </div>
+
+    <div class="hypothesen">
+      <article class="hypo">
+        <p class="hypo-nr">H1</p>
+        <h3>Die Krise hat zwei Ursachen</h3>
+        <p>Die Wasserknappheit im Valle Central entsteht aus dem Zusammenspiel von Megadürre und menschlicher Nutzung. Die Ausweitung des exportorientierten Bewässerungsobstbaus und eine Wasserrechtsordnung, die mehr Rechte vergibt als Wasser vorhanden ist, verstärken die Folgen des Niederschlagsrückgangs.</p>
+        <p class="hypo-pruef">Überprüft in Kapitel 3, 6 und 7</p>
+      </article>
+      <article class="hypo">
+        <p class="hypo-nr">H2</p>
+        <h3>Effizienz allein reicht nicht</h3>
+        <p>Tropfbewässerung spart Wasser pro Hektar. Ohne eine Obergrenze für die gesamte Entnahme in einem Einzugsgebiet führt sie aber eher zu mehr bewässerter Fläche als zu mehr Wasser im Fluss. Zukunftsfähig wird der Raum erst durch eine Kombination aus Technik, Regeln und Diversifizierung.</p>
+        <p class="hypo-pruef">Überprüft in Kapitel 5, 8 und 9</p>
+      </article>
+    </div>
+
+    <div class="design">
+      <h3 class="klein-h">Forschungsdesign</h3>
+      <dl class="design-liste">
+        <div><dt>Raum</dt><dd>Zentralchile zwischen 32° und 37° Süd. Kern ist das Valle Central von der Cuesta de Chacabuco nördlich von Santiago bis Ñuble (Regionen Metropolitana, O’Higgins, Maule, Ñuble). Nördlich davon die Quertäler von Ligua und Petorca als Vergleichsraum. Fallbeispiel: O’Higgins und Maule.</dd></div>
+        <div><dt>Daten</dt><dd>Amtliche Niederschlagsreihen und Klimanormalwerte 1991–2020 des chilenischen Wetterdienstes (DMC), Höhenmodell, Satellitenbilder der NASA, Agrarstatistik (ODEPA, CIREN), Exportdaten, Fachliteratur.</dd></div>
+        <div><dt>Methoden</dt><dd>Kartenauswertung, Höhenprofil, Klimadiagramme nach Walter und Lieth, Zeitreihenanalyse, Agrarprofil, Wirkungsgefüge, Bewertungsmatrix, Szenariotechnik.</dd></div>
+      </dl>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 02 NATURRAUM ============ -->
+<section id="naturraum" class="kap" aria-labelledby="k2">
+  <header class="kap-kopf">
+    <h2 id="k2">Eine Senke zwischen zwei Gebirgen</h2>
+    <p class="kap-lead">Das Valle Central ist eine tektonische Längssenke. Im Westen begrenzt sie die Küstenkordillere, im Osten die Anden. Auf seinen Schwemmlandböden liegt das Zentrum des chilenischen Obst- und Weinbaus.</p>
+  </header>
+
+  <div class="karte-block">
+    <figure class="karte-fig">
+      <div class="karte-wrap">
+        {{KARTE}}
+      </div>
+      <p class="karte-wisch">Die Karte lässt sich seitlich verschieben.</p>
+      <figcaption>
+        <strong>Karte 1: Zentralchile zwischen 31,8° und 37,2° Süd.</strong>
+      </figcaption>
+    </figure>
+
+    <aside class="karte-legende" aria-label="Legende und Lage">
+      <div class="inset-wrap">{{INSET}}</div>
+      <h3 class="klein-h">Legende</h3>
+      <div class="hoehenleiste" aria-hidden="true"></div>
+      <p class="hoehen-skala"><span>0</span><span>900</span><span>2 800</span><span>5 200 m</span></p>
+      <ul class="leg-liste">
+        <li><span class="sym sym-fluss"></span> Fluss (Abflussmenge nach Strichstärke)</li>
+        <li><span class="sym sym-fall"></span> Regionen des Fallbeispiels: O’Higgins und Maule</li>
+        <li><span class="sym sym-ort"></span> Stadt</li>
+        <li><span class="sym sym-problem"></span> Problemort (Kapitel 6)</li>
+        <li><span class="sym sym-profil"></span> Querschnitt A–B (oben auf der Seite)</li>
+      </ul>
+      <p class="leg-hinweis">Die Flüsse entspringen fast alle in den Anden und fließen quer durch das Tal nach Westen. Sie sind kurz, steil und werden vom Schnee gespeist.</p>
+    </aside>
+  </div>
+
+  <div class="naturraum-faktoren">
+    <article class="faktor">
+      <h3>Lage und Relief</h3>
+      <p>Auf 34° Süd folgen von West nach Ost Küstenterrassen um 300 Meter, die Küstenkordillere mit Gipfeln um 1 500 Metern, der Talboden des Valle Central um 500 Meter bei Rancagua und schließlich die Anden, die bis über 4 000 Meter ansteigen. Auf Höhe von Rancagua ist der Talboden gut 25 Kilometer breit. Nach Süden sinkt er auf rund 150 Meter bei Chillán ab.</p>
+    </article>
+    <article class="faktor">
+      <h3>Geologie und Böden</h3>
+      <p>Die Senke entstand an der aktiven Plattengrenze, an der die Nazca-Platte unter die Südamerikanische Platte abtaucht. Erdbeben und Vulkanismus gehören dazu. Flüsse und Gletscher haben sie mit Kies, Sand und vulkanischer Asche gefüllt. Daraus entstanden tiefgründige, gut durchlüftete Schwemmlandböden. Nach Süden nehmen Böden aus Vulkanasche zu, in Chile „Trumao“ genannt. In den mächtigen Schottern liegen große Grundwasserleiter.</p>
+    </article>
+    <article class="faktor">
+      <h3>Klima</h3>
+      <p>Zentralchile hat ein Winterregenklima der Subtropen. Weil es auf der Südhalbkugel liegt, ist Dezember bis Februar Sommer und Juni bis August Winter. Im Sommer bestimmt das Südostpazifische Hoch das Wetter, absinkende Luft verhindert monatelang Regen. Im Winter verlagert es sich nach Norden, dann bringen die Westwinde Tiefdruckgebiete mit Regen und in den Anden Schnee. Der kalte Humboldtstrom kühlt die Küste und stabilisiert die Luftschichtung. Nach Süden nimmt der Niederschlag zu: Santiago erhält im Mittel 286 Millimeter und liegt damit nach Köppen schon im Steppenklima (BSk), Curicó und Chillán mit 593 und 935 Millimetern im Mittelmeerklima (Csb).</p>
+    </article>
+    <article class="faktor">
+      <h3>Gewässer</h3>
+      <p>Aconcagua, Maipo, Rapel mit Cachapoal und Tinguiririca, Mataquito, Maule und Itata werden vor allem vom Schnee gespeist (nivales, weiter südlich nivo-pluviales Abflussregime). Ihren höchsten Abfluss haben sie deshalb mit der Schneeschmelze im späten Frühjahr und Sommer, also genau in der Bewässerungszeit. Der Schnee wirkt wie ein natürlicher Stausee. Gletscher puffern trockene Sommer zusätzlich. Ohne sie wäre der Abfluss des Maipo im März in den Dürrejahren 2010 bis 2018 um etwa 31 Prozent geringer gewesen <a class="zit" href="#q-mccarthy2022">McCarthy u. a. 2022</a>.</p>
+    </article>
+    <article class="faktor">
+      <h3>Vegetation</h3>
+      <p>Die natürliche Vegetation ist ein Hartlaub-Buschwald, der Matorral, mit Arten wie Quillay, Litre, Peumo und Boldo, dazu die Chilenische Honigpalme. Auf dem Talboden prägt der dornige Espino (Vachellia caven, früher Acacia caven) die Landschaft. Zentralchile zählt zu den weltweiten Biodiversitäts-Hotspots <a class="zit" href="#q-myers2000">Myers u. a. 2000</a>. Ein Großteil des Talbodens ist heute Acker- und Plantagenland.</p>
+    </article>
+  </div>
+
+  <div class="bildpaar">
+    <figure class="foto foto-breit">
+      <picture><img src="assets/img/santiago-anden-1800.webp" srcset="assets/img/santiago-anden-900.webp 900w, assets/img/santiago-anden-1800.webp 1800w" sizes="(min-width: 900px) 60vw, 100vw" width="1800" height="1350" loading="lazy" decoding="async" alt="Blick über Santiago im Winter. Über der Stadt liegt eine Dunstschicht, dahinter erheben sich die schneebedeckten Anden."></picture>
+      <figcaption><strong>Die Anden als Wasserturm.</strong> Santiago im Winter, dahinter die verschneite Hauptkordillere. Die Schneedecke dieser Monate wird im Sommer zum Bewässerungswasser im Tal. <span class="credit">Foto: Güldem Üstün, CC BY 2.0, Wikimedia Commons</span></figcaption>
+    </figure>
+    <figure class="foto">
+      <picture><img src="assets/img/modis-schnee-2019-1800.webp" srcset="assets/img/modis-schnee-2019-900.webp 900w, assets/img/modis-schnee-2019-1800.webp 1800w" sizes="(min-width: 900px) 35vw, 100vw" width="1800" height="1498" loading="lazy" decoding="async" alt="Satellitenbild von Zentralchile und Argentinien im Mai 2019. Die Anden sind als weißes Schneeband zu erkennen, westlich davon die bräunliche Senke des Valle Central und die Küste."></picture>
+      <figcaption><strong>Schnee aus dem All.</strong> Neuschnee auf den Zentralanden im Mai 2019, aufgenommen vom Satellitensensor MODIS. Links der Pazifik mit Wolkenfeldern. <span class="credit">Bild: NASA GSFC, MODIS Land Rapid Response Team, gemeinfrei</span></figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============ 03 KLIMA ============ -->
+<section id="klima" class="kap" aria-labelledby="k3">
+  <header class="kap-kopf">
+    <h2 id="k3">Dreizehn Jahre zu trocken</h2>
+  </header>
+
+  <div class="klimadiagramme">
+    <h3 class="klein-h">Klimadiagramme von Nord nach Süd, Mittel 1991 bis 2020</h3>
+    <p class="kd-hinweis">Auf der Südhalbkugel sind die Jahreszeiten vertauscht: Dezember bis Februar ist Sommer, Juni bis August Winter. Deshalb liegt das Niederschlagsmaximum in der Mitte des Diagramms.</p>
+    <div class="kd-reihe" id="kd-reihe"></div>
+    <p class="kd-legende"><span><span class="sym sym-t"></span> Temperatur (°C)</span> <span><span class="sym sym-n"></span> Niederschlag (mm), über 100 mm im Maßstab 1 : 10</span> <span><span class="sym sym-arid"></span> arid: Niederschlag (mm) kleiner als doppelte Temperatur (°C)</span></p>
+    <div class="prosa prosa-schmal">
+      <p><strong>Auswertung:</strong> Alle drei Stationen haben warme, trockene Sommer von Dezember bis Februar und milde, regenreiche Winter von Juni bis August. Das ist das typische Bild der winterfeuchten Subtropen. Nach Süden steigt der Jahresniederschlag von 286 Millimetern in Santiago auf 935 Millimeter in Chillán, die Zahl der ariden Monate sinkt von acht auf fünf. Die Jahresmitteltemperatur unterscheidet sich mit 16,0, 14,6 und 13,9 °C nur wenig. Für die Landwirtschaft entscheidend ist die Wachstumszeit von November bis März: Dann fallen in Santiago zusammen nur rund 14 Millimeter, in Curicó rund 33 und selbst in Chillán knapp 100 Millimeter. Ohne Bewässerung wäre intensiver Obstbau hier nicht möglich.</p>
+      <p class="quelle-klein">Daten: Dirección Meteorológica de Chile, Stationen Santiago Quinta Normal, Curicó General Freire und Chillán Bernardo O’Higgins. Niederschlag: Mittel 1991–2020 von uns aus den amtlichen Monatssummen berechnet <a class="zit" href="#q-dmc">DMC 2026</a>. Temperatur: Normalwerte 1991–2020 der DMC <a class="zit" href="#q-wiki">Wikipedia 2026</a>.</p>
+    </div>
+  </div>
+
+  <div class="zeitreihe">
+    <div class="zr-kopf">
+      <h3 class="klein-h">Jahresniederschlag Santiago, Quinta Normal, 1969 bis 2025</h3>
+    </div>
+    <figure class="zr-fig">
+      <div id="zr-chart" class="zr-chart" role="img" aria-label="Säulendiagramm des Jahresniederschlags in Santiago von 1969 bis 2025. Von 2010 bis 2022 liegt jedes Jahr unter dem Normalwert von 286 Millimetern, 2019 fielen nur 82 Millimeter. 2023 und 2024 lagen darüber, 2025 wieder darunter."></div>
+      <figcaption>Säulen: Jahressumme. Linie: Normalwert 1991–2020 (286 mm). Daten: Dirección Meteorológica de Chile, Station Quinta Normal (330020) <a class="zit" href="#q-dmc">DMC 2026</a>.</figcaption>
+    </figure>
+    <div class="zr-text prosa">
+      <p>Von 2010 bis 2022 lag jedes einzelne Jahr unter dem Normalwert. Im Mittel fielen nur 189 Millimeter, 34 Prozent weniger als im Normalmittel 1991 bis 2020 (286 mm) und 45 Prozent weniger als im Mittel 1981 bis 2009. Das Jahr 2019 brachte mit 82 Millimetern den geringsten Wert der hier gezeigten Reihe. Die Klimaforschung nennt diese Phase die <em>Megasequía</em>, die Megadürre. In den Jahren 2010 bis 2015 lagen die Defizite in ganz Zentralchile zwischen 30° und 38° Süd bei 25 bis 45 Prozent pro Jahr <a class="zit" href="#q-garreaud2017">Garreaud u. a. 2017</a>. Sie ist die längste Dürre seit Beginn der Messungen und hat in den letzten tausend Jahren kaum Entsprechungen <a class="zit" href="#q-garreaud2020">Garreaud u. a. 2020</a>.</p>
+      <p>Weil weniger Schnee fiel, sanken Abflüsse, Stauseen und Grundwasserstände teils um bis zu 90 Prozent <a class="zit" href="#q-garreaud2017">Garreaud u. a. 2017</a>. 2023 und 2024 waren erstmals seit 2008 wieder nasser als normal, unter anderem durch Starkregen aus atmosphärischen Flüssen. Fachleute sehen die Dürre über mehrere Jahre betrachtet trotzdem nicht als beendet an <a class="zit" href="#q-meteored2025">Campos 2025</a>. 2025 lag Santiago mit 232 Millimetern wieder 19 Prozent unter dem Normalwert.</p>
+    </div>
+  </div>
+
+  <div class="ursachen">
+    <h3 class="klein-h">Klimawirkung oder menschliche Verstärkung?</h3>
+    <div class="zweispalt">
+      <div class="spalte spalte-klima">
+        <h4>Klimawirkung</h4>
+        <ul>
+          <li>Ein kräftiges Hochdruckgebiet über dem subtropischen Pazifik hielt in den Dürrejahren die Tiefdruckgebiete der Westwinde von Zentralchile fern <a class="zit" href="#q-garreaud2020">Garreaud u. a. 2020</a>.</li>
+          <li>Die natürliche Pazifische Dekaden-Oszillation erklärt etwa die Hälfte des Niederschlagsrückgangs seit den späten 1970er Jahren. Etwa ein Viertel des Defizits seit 2010 ist menschengemacht <a class="zit" href="#q-boisier2016">Boisier u. a. 2016</a>. Die Dürre lief meist unter neutralen Bedingungen ab, also ohne El Niño oder La Niña <a class="zit" href="#q-garreaud2020">Garreaud u. a. 2020</a>.</li>
+          <li>Die Nullgradgrenze ist in Zentralchile von 1975 bis 2001 um rund 120 Meter im Winter und rund 200 Meter im Sommer gestiegen <a class="zit" href="#q-carrasco2005">Carrasco u. a. 2005</a>. Mehr Niederschlag fällt als Regen statt als Schnee.</li>
+          <li>Die Jahresmitteltemperatur in Santiago stieg zwischen den Normalperioden 1981–2010 und 1991–2020 um 0,5 K <a class="zit" href="#q-latercera2021">La Tercera 2021</a>. Höhere Temperaturen erhöhen die Verdunstung und den Wasserbedarf der Pflanzen.</li>
+        </ul>
+      </div>
+      <div class="spalte spalte-mensch">
+        <h4>Menschliche Verstärkung</h4>
+        <ul>
+          <li>Die bewässerte Obstfläche wuchs auch in den Dürrejahren weiter: Die Kirschfläche hat sich von 2015 bis 2025 verdreifacht <a class="zit" href="#q-ovalle2026">Ovalle 2026</a>. Neue Plantagen entstanden auch an Hängen.</li>
+          <li>Mehr Brunnen senken das Grundwasser. In Ligua und Petorca fiel es in drei Vierteln der Messbrunnen deutlich, obwohl weiter neue Rechte vergeben wurden <a class="zit" href="#q-duran2020">Duran-Llacer u. a. 2020</a>.</li>
+          <li>Handelbare, unbefristete Wasserrechte erlaubten es, Wasser dorthin zu verschieben, wo es am meisten Geld bringt, nicht dorthin, wo es am dringendsten gebraucht wird <a class="zit" href="#q-budds2004">Budds 2004</a>.</li>
+          <li>Wachsende Siedlungen und Ferienhäuser mit Pools, etwa am Ufer der Laguna de Aculeo, erhöhen die Entnahme zusätzlich <a class="zit" href="#q-nasa2023">NASA 2023</a>.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="heftdaten">
+    <h3 class="klein-h">Auswertung: Klimadaten (didaktischer Datensatz) und Material M2</h3>
+    <div class="heft-raster">
+      <figure class="heft-fig">
+        <div id="heft-klima" class="heft-chart" role="img" aria-label="Liniendiagramm: Temperatur steigt von 17,2 auf 19,1 Grad, Niederschlag sinkt von 510 auf 421 Millimeter zwischen 1990 und 2025."></div>
+        <figcaption>Klimadaten, didaktischer Datensatz, 1990–2025</figcaption>
+      </figure>
+      <div class="rechnung">
+        <h4>Veränderung berechnet</h4>
+        <table class="rechen-tab">
+          <tbody>
+            <tr><th scope="row">Temperatur</th><td>19,1 − 17,2 °C</td><td class="erg">+1,9 K</td></tr>
+            <tr><th scope="row">pro Jahrzehnt</th><td>1,9 K ÷ 3,5</td><td class="erg">+0,54 K</td></tr>
+            <tr><th scope="row">Niederschlag</th><td>421 − 510 mm</td><td class="erg">−89 mm</td></tr>
+            <tr><th scope="row">relativ</th><td>−89 ÷ 510</td><td class="erg">−17,5 %</td></tr>
+          </tbody>
+        </table>
+        <p>Beide Trends verlaufen fast gleichmäßig. Wird es zugleich wärmer und trockener, sinkt das Wasserangebot, während der Bedarf steigt. Material M2 zeigt diesen Zusammenhang: Von 2000 bis 2025 sinkt der Niederschlags-Index auf 81, der Bewässerungsbedarf steigt auf 133, der Ertrag fällt nur leicht auf 94. Der Ertrag bleibt also fast stabil, vermutlich weil mehr bewässert wird.</p>
+        <p><strong>Hypothese:</strong> Der Ertrag hält sich nur, solange zusätzliches Wasser verfügbar ist. Sinkt das Grundwasser weiter, bricht der Ertrag stärker ein als der Niederschlag.</p>
+        <p><strong>Fehlende Daten:</strong> Verdunstung, Schneedecke und Abfluss der Flüsse, Grundwasserstand, Verteilung des Regens über das Jahr, Extremereignisse wie Hitzewellen und Spätfrost, Größe der bewässerten Fläche, Wasserpreise und vergebene Wasserrechte.</p>
+        <p><strong>Vergleich mit echten Daten:</strong> Der Rückgang im Datensatz (−17,5 % in 35 Jahren) liegt in derselben Größenordnung wie der reale Rückgang in Santiago zwischen den Normalperioden 1981–2010 und 1991–2020 (−16 %, von 342 auf 286 mm).</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 04 NUTZUNG ============ -->
+<section id="nutzung" class="kap" aria-labelledby="k4">
+  <header class="kap-kopf">
+    <h2 id="k4">Obst für die Gegensaison</h2>
+    <p class="kap-lead">Das Valle Central ist ein exportorientierter Bewässerungsraum mit Dauerkulturen. Geerntet wird, wenn auf der Nordhalbkugel Winter ist. Das macht die Früchte wertvoll und den Raum abhängig.</p>
+  </header>
+
+  <div class="nutzung-steckbrief">
+    <dl class="merkmale">
+      <div><dt>Typ</dt><dd>Intensiver, kapitalstarker Bewässerungsobstbau (Agrobusiness) mit Dauerkulturen</dd></div>
+      <div><dt>Produkte</dt><dd>Kirschen, Tafeltrauben, Äpfel, Pflaumen, Walnüsse, Blaubeeren, Avocados, Wein</dd></div>
+      <div><dt>Wasser</dt><dd>Flusswasser aus Kanalnetzen, zunehmend Grundwasser aus Brunnen. In der Region O’Higgins werden 82 % der Obstfläche per Tropf- oder Mikrobewässerung versorgt, 2003 wurden noch 68 % über Furchen geflutet <a class="zit" href="#q-odepa2022">Muñoz 2022</a></dd></div>
+      <div><dt>Arbeit</dt><dd>Wenige Festangestellte, in der Ernte Hunderttausende Saisonkräfte (Temporeros), nach einer Studie der Universität Talca 400 000 bis 500 000 pro Saison, die Hälfte davon Frauen <a class="zit" href="#q-ciper2007">CIPER 2007</a></dd></div>
+      <div><dt>Markt</dt><dd>Frischobstexport per Kühlcontainer, vor allem nach China, in die USA und nach Europa. Von Januar bis April 2024 exportierte Chile Obst im Wert von 4,4 Milliarden US-Dollar <a class="zit" href="#q-fp2024">FreshPlaza 2024</a></dd></div>
+    </dl>
+    <figure class="foto foto-hoch">
+      <picture><img src="assets/img/kirschernte-1800.webp" srcset="assets/img/kirschernte-900.webp 900w, assets/img/kirschernte-1800.webp 1800w" sizes="(min-width: 900px) 40vw, 100vw" width="1800" height="1208" loading="lazy" decoding="async" alt="Illustration: Erntehelferinnen mit Sonnenhüten und Halstüchern pflücken Kirschen in Eimer, daneben gestapelte Erntekisten in einer staubigen Plantagenreihe."></picture>
+      <figcaption><span class="ki-badge">KI-Bild</span> <strong>Kirschernte im Januar.</strong> So sieht Saisonarbeit in einer Kirschplantage aus: Pflücken von Hand, Eimer am Gürtel, Schutz gegen die Mittagssonne. <span class="credit">KI-generierte Illustration (Kie.ai, Modell Nano Banana Pro), keine Fotografie</span></figcaption>
+    </figure>
+  </div>
+
+  <div class="geschichte">
+    <h3 class="klein-h">Wie das System entstand</h3>
+    <ol class="zeitleiste">
+      <li><span class="zl-jahr">bis 1960er</span><p><strong>Hacienda.</strong> Großgrundbesitz mit abhängigen Landarbeitern (Inquilinos), Weizen, Viehwirtschaft, Wein. Kanäle aus der Kolonialzeit verteilen das Flusswasser.</p></li>
+      <li><span class="zl-jahr">1962–1973</span><p><strong>Agrarreform.</strong> Vor allem nach dem Gesetz 16.640 von 1967 enteignet der Staat Großbetriebe und überträgt das Land an Genossenschaften (Asentamientos) und Kleinbauern.</p></li>
+      <li><span class="zl-jahr">ab 1973</span><p><strong>Neoliberale Wende.</strong> Unter der Militärdiktatur enden die Enteignungen, ein Teil des Landes geht an die früheren Besitzer zurück, der Rest wird als Einzelparzellen vergeben und frei handelbar. Der Export wird gefördert.</p></li>
+      <li><span class="zl-jahr">1981</span><p><strong>Código de Aguas.</strong> Wasserrechte werden vom Boden getrennt, kostenlos und unbefristet vergeben und frei handelbar <a class="zit" href="#q-codigo1981">DFL 1.122</a> <a class="zit" href="#q-budds2004">Budds 2004</a>.</p></li>
+      <li><span class="zl-jahr">1985</span><p><strong>Bewässerungsgesetz 18.450.</strong> Der Staat bezuschusst Bewässerungsanlagen, heute mit bis zu 90 % der Kosten für Kleinbauern <a class="zit" href="#q-cnr">CNR</a>.</p></li>
+      <li><span class="zl-jahr">2006</span><p><strong>Freihandel mit China.</strong> Das Abkommen öffnet den wichtigsten Markt für Frischobst.</p></li>
+      <li><span class="zl-jahr">ab 2015</span><p><strong>Kirschenboom.</strong> Die Kirschfläche verdreifacht sich in zehn Jahren <a class="zit" href="#q-ovalle2026">Ovalle 2026</a>.</p></li>
+      <li><span class="zl-jahr">2022</span><p><strong>Reform des Wasserrechts.</strong> Trinkwasser hat Vorrang, neue Rechte gelten nur noch befristet, höchstens 30 Jahre mit Verlängerung <a class="zit" href="#q-ley21435">Ley 21.435</a>.</p></li>
+    </ol>
+  </div>
+
+  <div class="kette">
+    <h3 class="klein-h">Der Weg des Wassers in die Kirsche</h3>
+    <ol class="kette-liste">
+      <li><span class="k-ico" aria-hidden="true"><svg viewBox="0 0 40 40"><path d="M2 34 L16 12 L22 20 L28 10 L38 34Z"/><path class="w" d="M13.5 16 L16 12 L18.4 15.4 L16.6 14.6Z M25.5 14 L28 10 L30.4 14.2 L28.4 13.2Z"/></svg></span><h4>Schnee und Gletscher</h4><p>Winterniederschlag wird in den Anden gespeichert.</p></li>
+      <li><span class="k-ico" aria-hidden="true"><svg viewBox="0 0 40 40"><path class="w" d="M4 10 C14 14 10 22 20 24 S 30 34 36 32" fill="none"/></svg></span><h4>Fluss</h4><p>Schmelzwasser von Oktober bis Februar.</p></li>
+      <li><span class="k-ico" aria-hidden="true"><svg viewBox="0 0 40 40"><path d="M4 14 H36 M4 26 H36" fill="none"/><path class="w" d="M6 20 H34" fill="none"/></svg></span><h4>Kanal oder Brunnen</h4><p>Verteilung durch Kanalgemeinschaften, ergänzt durch Grundwasser.</p></li>
+      <li><span class="k-ico" aria-hidden="true"><svg viewBox="0 0 40 40"><circle cx="20" cy="15" r="9"/><path d="M20 24 V36" fill="none"/><circle class="w" cx="12" cy="36" r="1.8"/><circle class="w" cx="28" cy="36" r="1.8"/></svg></span><h4>Plantage</h4><p>Tropfbewässerung mit Düngergabe, Frost- und Regenschutz.</p></li>
+      <li><span class="k-ico" aria-hidden="true"><svg viewBox="0 0 40 40"><rect x="6" y="14" width="28" height="18" fill="none"/><path d="M6 20 H34" fill="none"/><circle class="r" cx="15" cy="10" r="3.5"/><circle class="r" cx="23" cy="9" r="3.5"/></svg></span><h4>Packhaus</h4><p>Sortieren, Kühlen auf 0 °C, Verpacken in 5-kg-Kisten.</p></li>
+      <li><span class="k-ico" aria-hidden="true"><svg viewBox="0 0 40 40"><path d="M4 26 H36 L32 33 H8Z"/><rect x="10" y="17" width="9" height="9"/><rect x="20" y="17" width="9" height="9"/></svg></span><h4>Hafen</h4><p>San Antonio oder Valparaíso, Kühlcontainer, rund drei bis vier Wochen Seeweg nach China.</p></li>
+      <li><span class="k-ico" aria-hidden="true"><svg viewBox="0 0 40 40"><circle class="r" cx="15" cy="24" r="7"/><circle class="r" cx="26" cy="26" r="6"/><path d="M15 17 C16 9 22 6 27 5 M26 20 C25 13 26 9 27 5" fill="none"/></svg></span><h4>Markt</h4><p>Hauptabsatz zum chinesischen Neujahrsfest im Januar oder Februar.</p></li>
+    </ol>
+  </div>
+
+  <div class="kalender">
+    <h3 class="klein-h">Agrarkalender: Wasser kommt im Winter, gebraucht wird es im Sommer</h3>
+    <div class="kal" role="table" aria-label="Agrarkalender Valle Central">
+      <div class="kal-zeile kal-monate" role="row"><span role="columnheader" class="kal-name">Monat</span><span role="columnheader">A</span><span role="columnheader">M</span><span role="columnheader">J</span><span role="columnheader">J</span><span role="columnheader">A</span><span role="columnheader">S</span><span role="columnheader">O</span><span role="columnheader">N</span><span role="columnheader">D</span><span role="columnheader">J</span><span role="columnheader">F</span><span role="columnheader">M</span></div>
+      <div class="kal-zeile" role="row"><span role="rowheader" class="kal-name">Regen und Schneefall</span><span class="b b-wasser" style="--s:2;--e:5" role="cell">Mai bis August</span></div>
+      <div class="kal-zeile" role="row"><span role="rowheader" class="kal-name">Schneeschmelze, hoher Abfluss</span><span class="b b-wasser2" style="--s:7;--e:11" role="cell">Oktober bis Februar</span></div>
+      <div class="kal-zeile" role="row"><span role="rowheader" class="kal-name">Bewässerung</span><span class="b b-gruen" style="--s:6;--e:12" role="cell">September bis März</span></div>
+      <div class="kal-zeile" role="row"><span role="rowheader" class="kal-name">Kirschenernte</span><span class="b b-rot" style="--s:8;--e:10" role="cell">November bis Januar</span></div>
+      <div class="kal-zeile" role="row"><span role="rowheader" class="kal-name">Tafeltraubenernte</span><span class="b b-rot2" style="--s:9;--e:12" role="cell">Dezember bis März</span></div>
+      <div class="kal-zeile" role="row"><span role="rowheader" class="kal-name">Risiko Spätfrost, Regen zur Ernte</span><span class="b b-ocker" style="--s:6;--e:9" role="cell">September bis Dezember</span></div>
+    </div>
+    <p class="kal-hinweis">Monate von April bis März, im Takt des Agrarjahres der Südhalbkugel.</p>
+  </div>
+
+  <figure class="foto foto-panorama">
+    <picture><img src="assets/img/colchagua-panorama-1800.webp" srcset="assets/img/colchagua-panorama-900.webp 900w, assets/img/colchagua-panorama-1800.webp 1800w" sizes="100vw" width="1800" height="900" loading="lazy" decoding="async" alt="Weinberg im Colchagua-Tal: gerade Rebzeilen beiderseits eines Schotterwegs, im Hintergrund bewaldete Berge unter blauem Himmel."></picture>
+    <figcaption><strong>Rebzeilen im Colchagua-Tal, Region O’Higgins.</strong> Neben Obst ist Wein ein wichtiges Exportprodukt des Valle Central. <span class="credit">Foto: Hiroki Ogawa, CC BY 3.0, Wikimedia Commons</span></figcaption>
+  </figure>
+</section>
+
+<!-- ============ 05 FALLBEISPIEL ============ -->
+<section id="fallbeispiel" class="kap" aria-labelledby="k5">
+  <header class="kap-kopf">
+    <h2 id="k5">Kirschen aus O’Higgins und Maule</h2>
+    <p class="kap-lead">Keine Kultur zeigt die Dynamik des Valle Central so deutlich wie die Süßkirsche. Ihre Anbaufläche hat sich in zehn Jahren verdreifacht, nach Exportwert ist sie heute Chiles wichtigstes Frischobst <a class="zit" href="#q-fp2024">FreshPlaza 2024</a>.</p>
+  </header>
+
+  <figure class="foto foto-panorama foto-fall">
+    <picture><img src="assets/img/kirschen-chepica-1800.webp" srcset="assets/img/kirschen-chepica-900.webp 900w, assets/img/kirschen-chepica-1800.webp 1800w" sizes="100vw" width="1800" height="1345" loading="lazy" decoding="async" style="object-position: 40% 55%" alt="Reife, leuchtend rote Süßkirschen hängen in einer Traube an einem Ast zwischen grünen Blättern."></picture>
+    <figcaption><strong>Süßkirschen in Chépica, Region O’Higgins, im November.</strong> Kurz vor der Ernte. Im Valle Central zwischen O’Higgins und Maule liegt das Zentrum des chilenischen Kirschenanbaus. <span class="credit">Foto: Malissette, „Cerezas La Candelaria Chépica VI Región“, CC BY-SA 3.0, Wikimedia Commons</span></figcaption>
+  </figure>
+
+  <div class="profil-raster">
+    <div class="agrarprofil">
+      <h3 class="klein-h">Agrarprofil</h3>
+      <dl class="ap">
+        <div><dt>Raum</dt><dd>Regionen O’Higgins und Maule, Valle Central zwischen etwa 34° und 36,5° Süd</dd></div>
+        <div><dt>Naturgunst</dt><dd>Kühle Winter liefern die nötigen Kältestunden, trockene Sommer senken den Pilzdruck, tiefgründige Schwemmlandböden</dd></div>
+        <div><dt>Fläche Kirschen, Chile</dt><dd><span class="zahl">25 000 ha</span> 2015, <span class="zahl">über 77 000 ha</span> 2025 <a class="zit" href="#q-ovalle2026">Ovalle 2026</a></dd></div>
+        <div><dt>Konzentration</dt><dd>rund 81 % der Fläche liegen in Maule und O’Higgins</dd></div>
+        <div><dt>Sorten</dt><dd>Santina, Regina und Lapins auf über drei Vierteln der Fläche. 78 % der Anlagen sind jünger als zehn Jahre</dd></div>
+        <div><dt>Obstbau O’Higgins</dt><dd>95 082 ha Obst (2021), 27 % der Obstfläche Chiles, 82 % mit Tropf- oder Mikrobewässerung <a class="zit" href="#q-odepa2022">Muñoz 2022</a></dd></div>
+        <div><dt>Export 2024/25</dt><dd><span class="zahl">626 013 t</span> (Stand März 2025), 51 % mehr als in der Vorsaison, 91 % nach China <a class="zit" href="#q-ffp2025">Fresh Fruit Portal 2025</a></dd></div>
+        <div><dt>Preis</dt><dd>nach Angaben eines Exporteurs von rund 30 auf unter 20 US-Dollar je Kiste (FOB), etwa −33 % <a class="zit" href="#q-agraria2025">Agraria 2025</a></dd></div>
+      </dl>
+    </div>
+
+    <div class="kirsch-charts">
+      <figure>
+        <div id="kirsch-flaeche" class="mini-chart" role="img" aria-label="Kirschenfläche in Chile: 25 000 Hektar 2015, über 77 000 Hektar 2025."></div>
+        <figcaption>Kirschenfläche Chile in Hektar <a class="zit" href="#q-ovalle2026">Ovalle 2026</a></figcaption>
+      </figure>
+      <figure>
+        <div id="kirsch-export" class="mini-chart" role="img" aria-label="Kirschenexport: 413 979 Tonnen in der Saison 2023/24, 626 013 Tonnen 2024/25. Preis je Kiste fiel von etwa 30 auf unter 20 US-Dollar."></div>
+        <figcaption>Exportmenge in Tonnen und Preis je 5-kg-Kiste (FOB) <a class="zit" href="#q-ffp2025">Fresh Fruit Portal 2025</a>, <a class="zit" href="#q-agraria2025">Agraria 2025</a></figcaption>
+      </figure>
+    </div>
+  </div>
+
+  <div class="warum">
+    <h3 class="klein-h">Warum gerade Kirschen?</h3>
+    <div class="warum-raster">
+      <p><strong>Gegensaison.</strong> Chilenische Kirschen werden von November bis Januar geerntet und kommen von Dezember bis Februar in Asien an. Auf der Nordhalbkugel gibt es dann kaum frische.</p>
+      <p><strong>Chinesisches Neujahr.</strong> Rot gilt in China als Glücksfarbe, Kirschen sind ein beliebtes Geschenk. Das Fest im Januar oder Februar fällt in die Zeit, in der die Kirschen aus Chile ankommen.</p>
+      <p><strong>Hoher Preis.</strong> Exportkirschen erzielen hohe Preise je Kilogramm. Das rechtfertigt teure Technik wie Regendächer, Frostschutz und Tropfbewässerung.</p>
+      <p><strong>Logistik.</strong> Schiffe mit Kühlcontainern brauchen rund drei bis vier Wochen nach China. Gekühlt auf etwa 0 °C halten Kirschen das aus.</p>
+    </div>
+  </div>
+
+  <div class="bewertung-fall prosa">
+    <h3 class="klein-h">Einordnung</h3>
+    <p>Der Kirschenboom zeigt die Stärke und die Schwäche des Systems zugleich. Er bringt Arbeitsplätze, Investitionen und Exporterlöse in ländliche Regionen. Gleichzeitig hängt er an einem einzigen Markt. In der Saison 2024/25 stieg die Menge um die Hälfte, der Preis fiel um ein Drittel. In der Saison 2025/26 sank der China-Anteil auf 87 Prozent, weil Exporteure gezielt neue Märkte suchen <a class="zit" href="#q-freshplaza2026">FreshPlaza 2026</a>. Ein Drittel der Fläche trägt noch nicht voll, das Angebot wird also weiter wachsen <a class="zit" href="#q-ernst2026">Ernst 2026</a>. Und weil Kirschen Dauerkulturen sind, lassen sich die Anlagen in einem Dürrejahr nicht einfach brachlegen. Die Bäume müssen weiter bewässert werden.</p>
+  </div>
+</section>
+
+<!-- ============ 06 PROBLEME ============ -->
+<section id="probleme" class="kap kap-dunkel" aria-labelledby="k6">
+  <header class="kap-kopf">
+    <h2 id="k6">Wenn der Fluss zur Schotterbahn wird</h2>
+    <p class="kap-lead">Die Megadürre hat sichtbar gemacht, wo das Nutzungssystem an Grenzen stößt. Zwei Orte stehen dafür beispielhaft: Petorca und die Laguna de Aculeo.</p>
+  </header>
+
+  <article class="problem-fall">
+    <div class="pf-text">
+      <h3>Petorca: grüne Hänge, trockener Fluss</h3>
+      <p>Nördlich des Valle Central, in den Quertälern der Provinz Petorca (Region Valparaíso), wurden auch steile Hänge mit Avocados bepflanzt, nach Wehr vollständig auf ökologisch empfindlichen Flächen <a class="zit" href="#q-wehr2018">Wehr 2018</a>. Das Wasser dafür kommt vor allem aus Brunnen im Grundwasser der Täler. In den Einzugsgebieten von Ligua und Petorca sank der Grundwasserspiegel in 75 Prozent der Messbrunnen deutlich, während weiter Wasserrechte vergeben wurden. Die Autoren führen das Absinken vor allem auf Übernutzung durch die Landwirtschaft zurück. Die Avocadofläche im Ligua-Tal wuchs von 2002 bis 2017 um 2 623 Hektar <a class="zit" href="#q-duran2020">Duran-Llacer u. a. 2020</a>. Nach einer Studie der Fundación Chile übersteigen am Río Ligua die vergebenen Rechte das verfügbare Wasser um 29 Prozent, am Río Petorca sind fast 90 Prozent vergeben <a class="zit" href="#q-wehr2018">Wehr 2018</a>. Die Flüsse führen auf weiten Strecken kein Wasser mehr. Dörfer werden mit Tankwagen versorgt, während an den Hängen bewässert wird.</p>
+    </div>
+    <div class="pf-bilder">
+      <figure class="foto">
+        <picture><img src="assets/img/petorca-1800.webp" srcset="assets/img/petorca-900.webp 900w, assets/img/petorca-1800.webp 1800w" sizes="(min-width: 900px) 45vw, 100vw" width="1800" height="970" loading="lazy" decoding="async" alt="Der Ort Petorca in einem Tal zwischen kahlen, trockenen Bergen. Am linken Hang sind Plantagenreihen bis weit nach oben angelegt."></picture>
+        <figcaption><strong>Petorca 2016.</strong> Am linken Hang reichen die Plantagenreihen weit über den Talboden hinauf. <span class="credit">Foto: Chacayuta46, CC BY-SA 4.0, Wikimedia Commons, unten beschnitten</span></figcaption>
+      </figure>
+      <figure class="foto">
+        <picture><img src="assets/img/saqueo-quillota-1800.webp" srcset="assets/img/saqueo-quillota-900.webp 900w, assets/img/saqueo-quillota-1800.webp 1800w" sizes="(min-width: 900px) 45vw, 100vw" width="1800" height="1200" loading="lazy" decoding="async" alt="Bunt gemaltes Wandbild mit dem Schriftzug „No es sequía, es saqueo“ neben einem gemalten Wasserhahn."></picture>
+        <figcaption><strong>„No es sequía, es saqueo“</strong> (Es ist keine Dürre, es ist Plünderung). Wandbild in Quillota, Region Valparaíso, Januar 2020. Der Spruch fasst den Vorwurf der Proteste zusammen: Schuld an leeren Flüssen sei vor allem die Verteilung des Wassers. <span class="credit">Foto: Carlos Figueroa Rojas, CC BY-SA 4.0, Wikimedia Commons</span></figcaption>
+      </figure>
+    </div>
+  </article>
+
+  <article class="problem-fall problem-aculeo">
+    <div class="pf-text">
+      <h3>Laguna de Aculeo: ein See verschwindet und kehrt zurück</h3>
+      <p>Die Laguna de Aculeo, rund 50 Kilometer südwestlich von Santiago, war bis 2010 ein beliebtes Ausflugsziel zum Segeln und Angeln <a class="zit" href="#q-valdes2020">Valdés-Pineda u. a. 2020</a>. Im Mai 2018 war sie vollständig ausgetrocknet. Die Hauptursache war die Megadürre: Rund 38 Prozent weniger Niederschlag führten zu 44 Prozent weniger Zufluss und 24 Prozent weniger Grundwasserneubildung. Der Klimaeffekt war mehr als zehnmal so groß wie der Effekt veränderter Landnutzung <a class="zit" href="#q-barria2021">Barría u. a. 2021</a>. Hinzu kamen Wasserentnahmen für Landwirtschaft, Häuser und Pools <a class="zit" href="#q-nasa2023">NASA 2023</a>. Für eine dauerhafte Erholung halten Valdés-Pineda u. a. Investitionen in die Wasserzufuhr und eine nachhaltige Bewirtschaftung des ganzen Einzugsgebiets für nötig <a class="zit" href="#q-valdes2020">Valdés-Pineda u. a. 2020</a>.</p>
+      <p>Nach heftigen Regenfällen im Winter 2023 füllte sich das Becken wieder. Im September 2023 stand auf etwa 5 Quadratkilometern rund ein Meter Wasser, halb so viel Fläche und ein Viertel des Volumens von vor 2010 <a class="zit" href="#q-nasa2023">NASA 2023</a>. Ende 2025 wurde die Lagune als urbanes Feuchtgebiet unter Schutz gestellt <a class="zit" href="#q-theclinic2025">The Clinic 2025</a>.</p>
+      <p class="regler-hinweis">Ziehen Sie den Regler über das Satellitenbild.</p>
+    </div>
+    <figure class="vergleich-fig">
+      <div class="vergleich" data-vergleich>
+        <img class="vg-unten" src="assets/img/aculeo-2023-09-1800.webp" width="1800" height="1200" alt="Satellitenbild vom 7. September 2023: In der Senke steht wieder Wasser, die Umgebung ist nach dem Regen grün." loading="lazy" decoding="async">
+        <div class="vg-rahmen">
+          <img class="vg-oben" src="assets/img/aculeo-2023-05-1800.webp" width="1800" height="1200" alt="Satellitenbild vom 18. Mai 2023: Die Senke der Laguna de Aculeo ist trocken und braun." loading="lazy" decoding="async">
+        </div>
+        <span class="vg-ring" aria-hidden="true"><span>Seebecken</span></span>
+        <span class="vg-fluss" aria-hidden="true">Río Maipo</span>
+        <div class="vg-griff" aria-hidden="true"><span></span></div>
+        <span class="vg-label vg-l">18. Mai 2023, trocken</span>
+        <span class="vg-label vg-r">7. Sept. 2023, nach dem Regen</span>
+        <input class="vg-input" type="range" min="0" max="100" value="50" step="1" aria-label="Vergleich: Anteil des Bildes vom Mai 2023">
+      </div>
+      <figcaption><strong>Laguna de Aculeo vor und nach dem Starkregen 2023.</strong> Landsat 9, Echtfarben. <span class="credit">Bilder: NASA Earth Observatory, Lauren Dauphin, Landsat-Daten des U.S. Geological Survey, gemeinfrei</span></figcaption>
+    </figure>
+  </article>
+
+  <figure class="foto foto-panorama">
+    <picture><img src="assets/img/aculeo-panorama-2026-1800.webp" srcset="assets/img/aculeo-panorama-2026-900.webp 900w, assets/img/aculeo-panorama-2026-1800.webp 1800w" sizes="100vw" width="1800" height="716" loading="lazy" decoding="async" alt="Luftpanorama der wieder gefüllten Laguna de Aculeo mit zwei bewaldeten Inseln, am Ufer erkennbare alte Uferlinien, dahinter Berge."></picture>
+    <figcaption><strong>Laguna de Aculeo im April 2026.</strong> Der See führt wieder viel Wasser, an den Ufern sind die Spuren des Tiefstands noch zu sehen. Ob er bleibt, hängt von den nächsten Wintern und von der Entnahme im Einzugsgebiet ab. <span class="credit">Foto: Linkey, CC BY-SA 4.0, Wikimedia Commons</span></figcaption>
+  </figure>
+
+  <div class="problemliste">
+    <h3 class="klein-h">Problemfelder im Überblick</h3>
+    <ol class="pl">
+      <li><h4>Wasserdefizit</h4><p>Weniger Schnee in den Anden. Flüsse, Stauseen und Grundwasser sanken in der Megadürre teils um bis zu 90 % <a class="zit" href="#q-garreaud2017">Garreaud u. a. 2017</a>.</p></li>
+      <li><h4>Übernutzung des Grundwassers</h4><p>Mehr und tiefere Brunnen, sinkender Spiegel. Kleinbetriebe können beim Nachbohren oft nicht mithalten.</p></li>
+      <li><h4>Wasser als Ware</h4><p>Rechte nach dem Gesetz von 1981 waren unbefristet und handelbar. Wer Kapital hat, sichert sich Wasser. Die Reform 2022 gilt für neue Rechte, alte bleiben weitgehend bestehen.</p></li>
+      <li><h4>Trinkwasser auf dem Land</h4><p>2022 standen 188 Gemeinden unter einem Dekret wegen Wasserknappheit, darunter Gemeinden der Regionen Metropolitana, O’Higgins und Maule <a class="zit" href="#q-df2022">Diario Financiero 2022</a>. Ländliche Trinkwassersysteme fallen trocken. Nach einer Recherche von CIPER, zitiert bei Wehr, versorgte der Staat rund eine halbe Million Menschen per Tankwagen <a class="zit" href="#q-wehr2018">Wehr 2018</a>.</p></li>
+      <li><h4>Abhängigkeit von einem Markt</h4><p>Neun von zehn exportierten Kirschen gingen 2024/25 nach China. Ein Preisrückgang dort trifft die ganze Region.</p></li>
+      <li><h4>Saisonarbeit</h4><p>Hunderttausende Saisonkräfte, oft ohne festen Vertrag, belastet durch Erschöpfung und Pflanzenschutzmittel <a class="zit" href="#q-ciper2007">CIPER 2007</a>.</p></li>
+      <li><h4>Ökologische Folgen</h4><p>Rodung von Hartlaubvegetation an Hängen, Erosion, Pestizideintrag, ausgetrocknete Feuchtgebiete in einem Biodiversitäts-Hotspot.</p></li>
+      <li><h4>Wetterextreme</h4><p>Spätfrost zur Blüte, Hitzewellen, Regen zur Kirschernte. Schutzmaßnahmen sind teuer.</p></li>
+    </ol>
+  </div>
+
+  <figure class="foto foto-panorama">
+    <picture><img src="assets/img/embalse-el-yeso-1800.webp" srcset="assets/img/embalse-el-yeso-900.webp 900w, assets/img/embalse-el-yeso-1800.webp 1800w" sizes="100vw" width="1800" height="1200" loading="lazy" decoding="async" alt="Weite, rissig ausgetrocknete Fläche eines Stausees zwischen kahlen Andenbergen unter blauem Himmel."></picture>
+    <figcaption><strong>Embalse El Yeso im Februar 2020.</strong> Weite Teile des Stausees im Cajón del Maipo liegen trocken. Er ist einer der wichtigsten Trinkwasserspeicher Santiagos. <span class="credit">Foto: Katharosinergia, „Sequía Embalse el Yeso“, CC BY-SA 4.0, Wikimedia Commons</span></figcaption>
+  </figure>
+</section>
+
+<!-- ============ 07 WIRKUNGSGEFÜGE ============ -->
+<section id="wirkungsgefuege" class="kap" aria-labelledby="k7">
+  <header class="kap-kopf">
+    <h2 id="k7">Alles hängt am Wasser</h2>
+    <p class="kap-lead">Tippen oder klicken Sie auf ein Element. Hervorgehoben werden seine Ursachen und Folgen. Die Filter trennen Klimawirkung, menschliche Verstärkung und Rückkopplungen.</p>
+  </header>
+
+  <div class="wg-steuerung" role="group" aria-label="Ansicht des Wirkungsgefüges">
+    <button type="button" class="wg-filter" data-filter="alle" aria-pressed="true">Alles</button>
+    <button type="button" class="wg-filter" data-filter="klima" aria-pressed="false">Klimawirkung</button>
+    <button type="button" class="wg-filter" data-filter="mensch" aria-pressed="false">Menschliche Verstärkung</button>
+    <button type="button" class="wg-filter" data-filter="loop" aria-pressed="false">Rückkopplungen</button>
+  </div>
+
+  <div class="wg-raster">
+    <div class="wg-scroll">
+      <svg id="wg" class="wg" viewBox="0 0 1200 785" role="group" aria-label="Wirkungsgefüge Wasser im Valle Central"></svg>
+    </div>
+    <aside class="wg-info" aria-live="polite">
+            <h3 class="wg-info-titel">Nichts ausgewählt</h3>
+      <p class="wg-info-text">Wählen Sie ein Element im Schaubild. Pfeile mit „+“ verstärken, Pfeile mit „−“ schwächen ab.</p>
+      <div class="wg-info-listen">
+        <div><h4>Ursachen</h4><ul class="wg-ursachen"></ul></div>
+        <div><h4>Folgen</h4><ul class="wg-folgen"></ul></div>
+      </div>
+    </aside>
+  </div>
+  <p class="wg-wisch">Auf schmalen Bildschirmen lässt sich das Schaubild seitlich verschieben.</p>
+
+  <div class="schleifen">
+    <article>
+      <h3>Rückkopplung 1: Die Brunnenspirale</h3>
+      <p>Mehr Plantagen brauchen mehr Grundwasser. Der Spiegel sinkt, Brunnen fallen trocken, es wird tiefer gebohrt. Das senkt den Spiegel weiter. Wer sich das Bohren nicht leisten kann, verliert den Zugang zum Wasser. Eine sich selbst verstärkende Schleife.</p>
+    </article>
+    <article>
+      <h3>Rückkopplung 2: Das Effizienz-Paradox</h3>
+      <p>Tropfbewässerung spart pro Hektar Wasser. Das gesparte Wasser wird aber häufig für neue Flächen genutzt, und es versickert weniger Wasser, das vorher das Grundwasser auffüllte. In der Summe kann der Verbrauch im Einzugsgebiet steigen <a class="zit" href="#q-grafton2018">Grafton u. a. 2018</a>.</p>
+    </article>
+    <article>
+      <h3>Rückkopplung 3: Konflikt erzeugt Regeln</h3>
+      <p>Die Konflikte um Wasser in Petorca und anderswo haben politischen Druck erzeugt. Die Reform des Wasserrechts 2022 ist eine abschwächende Rückkopplung: Sie begrenzt neue Rechte zeitlich und stellt Trinkwasser an erste Stelle.</p>
+    </article>
+  </div>
+</section>
+
+<!-- ============ 08 STRATEGIEN ============ -->
+<section id="strategien" class="kap" aria-labelledby="k8">
+  <header class="kap-kopf">
+    <h2 id="k8">Zehn Strategien im Vergleich</h2>
+    <p class="kap-lead">Die zehn Strategien aus dem Strategienvergleich der Forschungswerkstatt und zwei Ergänzungen für Chile, bewertet für das Valle Central. Ein Klick auf eine Zeile zeigt Begründung und Beispiel.</p>
+  </header>
+
+  <div class="matrix-legende" aria-hidden="true">
+    <span><i class="r r2"></i> sehr günstig</span><span><i class="r r1"></i> günstig</span><span><i class="r r0"></i> neutral</span><span><i class="r rm1"></i> ungünstig</span><span><i class="r rm2"></i> sehr ungünstig</span>
+  </div>
+  <p class="matrix-lesart">Lesart: Bei „Kosten“ und „Risiko“ bedeutet günstig niedrige Kosten und geringes Risiko.</p>
+
+  <div class="matrix-wrap">
+    <table class="matrix">
+      <caption class="sr">Bewertung der Anpassungsstrategien nach Wasser, Kosten, Ökologie, Sozialem und Risiko</caption>
+      <thead>
+        <tr><th scope="col">Strategie</th><th scope="col">Wasser</th><th scope="col">Kosten</th><th scope="col">Ökologie</th><th scope="col">Sozial</th><th scope="col">Risiko</th><th scope="col" class="m-sum">Summe</th></tr>
+      </thead>
+      <tbody id="matrix-body"></tbody>
+    </table>
+  </div>
+
+  <div class="strategie-fazit prosa">
+    <h3 class="klein-h">Ergebnis des Vergleichs</h3>
+    <p>Am besten schneiden Maßnahmen ab, die das ganze Einzugsgebiet betrachten: <strong>Grundwassermanagement</strong> und <strong>Bodenbedeckung</strong>. Sie sind günstig, ökologisch sinnvoll und senken das Risiko. <strong>Tropfbewässerung</strong> und <strong>Präzisionslandwirtschaft</strong> sparen Wasser auf dem Feld, wirken aber nur dann für den Raum, wenn die gesamte Entnahme begrenzt wird. Sonst greift das Effizienz-Paradox. <strong>Entsalzung</strong> ist für das Valle Central kaum geeignet: Das Wasser müsste über 100 Kilometer weit und auf 500 Meter Höhe gepumpt werden. Sinnvoll ist sie an der Küste für Trinkwasser und Bergbau, wo sie Flusswasser für die Landwirtschaft freimachen kann.</p>
+  </div>
+</section>
+
+<!-- ============ 09 SZENARIO ============ -->
+<section id="szenario" class="kap" aria-labelledby="k9">
+  <header class="kap-kopf">
+    <h2 id="k9">Zwei Täler im Jahr 2050</h2>
+    <p class="kap-lead">Für 2035 bis 2065 erwartet der chilenische Klimarisiko-Atlas ARClim <a class="zit" href="#q-arclim">MMA 2020</a> gegenüber 1980 bis 2010 eine Erwärmung um 1,15 bis 2 °C, in Zentralchile im Mittel rund 15 Prozent weniger Niederschlag und zwischen Coquimbo und Los Lagos 10 bis 23 Prozent häufigere Dürren. Grundlage ist das Hochemissionsszenario RCP8.5 <a class="zit" href="#q-mma2022">MMA 2022</a>. Für die Region Metropolitana sind es rund 17 Prozent weniger Niederschlag <a class="zit" href="#q-uc2021">UC 2021</a>. Was daraus für die Landwirtschaft folgt, hängt von den Entscheidungen der nächsten Jahre ab.</p>
+  </header>
+
+  <div class="szen-schalter" role="tablist" aria-label="Szenario wählen">
+    <button type="button" role="tab" id="tab-trend" aria-selected="true" aria-controls="szen-panel" data-szen="trend">Trend: weiter wie bisher</button>
+    <button type="button" role="tab" id="tab-anp" aria-selected="false" aria-controls="szen-panel" data-szen="anpassung" tabindex="-1">Anpassung: umgesteuert</button>
+  </div>
+
+  <div id="szen-panel" class="szen-panel" role="tabpanel" aria-labelledby="tab-trend" data-aktiv="trend">
+    <div class="szen-profile">
+      <figure class="szen-profil szen-p-trend">{{PROFIL_A}}<figcaption><strong>Trend 2050.</strong> Schneegrenze höher, Lago Rapel und Fluss fast leer, Grundwasser tief abgesenkt, mehr Brunnen. Plantagen an Hängen und auf der Küstenterrasse aufgegeben (ocker). Schematisch auf dem echten Profil bei 34,2° S.</figcaption></figure>
+      <figure class="szen-profil szen-p-anp">{{PROFIL_B}}<figcaption><strong>Anpassung 2050.</strong> Gleiches Klima, gleiche Schneegrenze. Keine neuen Hangplantagen, weniger Brunnen, Versickerungsbecken (blau) füllen im Winter das Grundwasser auf. Der Talboden bleibt bewässert. Schematisch auf dem echten Profil bei 34,2° S.</figcaption></figure>
+    </div>
+    <div class="szen-tabelle" id="szen-tabelle"></div>
+  </div>
+
+  <div class="aussagen">
+    <h3 class="klein-h">Fünf Aussagen für 2050</h3>
+    <ol class="aussage-liste">
+      <li>
+        <h4>Das Valle Central wird wärmer und trockener, aber nicht gleichmäßig.</h4>
+        <p><strong>Begründung:</strong> Die Klimamodelle stimmen bei der Erwärmung überein. Beim Niederschlag zeigen sie für Zentralchile bis Ende des Jahrhunderts ein Minus von 10 bis 20 Prozent im mittleren und 20 bis 40 Prozent im höchsten Emissionsszenario <a class="zit" href="#q-salazar2024">Salazar u. a. 2024</a>. Nasse Jahre wie 2023 und 2024 bleiben möglich, Dürren werden aber häufiger <a class="zit" href="#q-mma2022">MMA 2022</a>.</p>
+      </li>
+      <li>
+        <h4>Der Sommerabfluss wird zum Engpass.</h4>
+        <p><strong>Begründung:</strong> Mit steigender Schneegrenze fällt mehr Regen statt Schnee. Der Abfluss verschiebt sich in den Winter, wenn er nicht gebraucht wird. Schrumpfende Gletscher fallen als Puffer im Spätsommer weg <a class="zit" href="#q-mccarthy2022">McCarthy u. a. 2022</a>. Auch der Klimarisiko-Atlas rechnet mit einer höheren Nullgradgrenze und deutlich weniger Schnee <a class="zit" href="#q-mma2022">MMA 2022</a>.</p>
+      </li>
+      <li>
+        <h4>Der Obstbau verlagert sich nach Süden.</h4>
+        <p><strong>Begründung:</strong> Nach Süden nimmt der Niederschlag zu, in Chillán fällt mehr als dreimal so viel wie in Santiago. Diese Verschiebung hat schon begonnen: Von 2016 bis 2019 wuchs die Obstfläche in Biobío um 40,8 %, in La Araucanía um 37,1 % und in Ñuble um 31,1 % <a class="zit" href="#q-odepa2019">ODEPA 2019</a>. Im trockeneren Norden schrumpfte sie in der Region Coquimbo von 2021 bis 2024 dürrebedingt um 17,3 % <a class="zit" href="#q-pf2024">Portal Frutícola 2024</a>.</p>
+      </li>
+      <li>
+        <h4>Wer Wasser regelt, sichert die Landwirtschaft.</h4>
+        <p><strong>Begründung:</strong> Das Wasserrecht von 2022 gibt Trinkwasser Vorrang und befristet neue Rechte. Wenn Grundwassergemeinschaften die Entnahme an die Neubildung koppeln, bleibt Bewässerung möglich, nur auf weniger Fläche. Ohne Regeln sinkt das Grundwasser weiter, bis die ersten Gebiete ganz aufgegeben werden.</p>
+      </li>
+      <li>
+        <h4>Die Zahl der Betriebe sinkt, der Konflikt bleibt.</h4>
+        <p><strong>Begründung:</strong> Teure Technik und tiefere Brunnen begünstigen große, kapitalstarke Betriebe. Kleinbauern geben auf oder verkaufen ihre Rechte. Ohne gezielte Förderung, etwa über das Bewässerungsgesetz mit bis zu 90 Prozent Zuschuss für Kleinbetriebe, wachsen soziale Spannungen.</p>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- ============ 10 FAZIT ============ -->
+<section id="fazit" class="kap kap-fazit" aria-labelledby="k10">
+  <header class="kap-kopf">
+    <h2 id="k10">Weniger Wasser, klügere Regeln</h2>
+  </header>
+  <div class="fazit-raster">
+    <div class="fazit-antwort prosa">
+      <p class="fazit-gross">Das Valle Central kann zukunftsfähig bleiben, wenn es seine Landwirtschaft an das Wasser anpasst, das tatsächlich da ist, und nicht an das, was der Weltmarkt verlangt.</p>
+      <p>Konkret heißt das: Entnahmen pro Einzugsgebiet begrenzen und an die Neubildung koppeln, Tropfbewässerung nur mit dieser Obergrenze fördern, Böden bedecken, Speicher wie künstliche Grundwasseranreicherung und neue Stauseen gezielt nutzen, Trinkwasser zuerst sichern und die Abhängigkeit von einem Markt und einer Kultur verringern. Tropfschläuche ohne Obergrenze verschieben das Problem nur ins Grundwasser, und Obergrenzen ohne Förderung treffen zuerst die kleinen Betriebe. Deshalb gehören Technik, Wasserregeln und gezielte Hilfe für Kleinbauern zusammen.</p>
+    </div>
+    <div class="hypo-check">
+      <article>
+        <p class="hypo-nr">H1</p>
+        <p class="urteil urteil-ja">bestätigt</p>
+        <p>Die Megadürre ist überwiegend natürlich bedingt, mit einem menschengemachten Anteil von etwa einem Viertel. Die Folgen wurden aber durch Nutzung verstärkt: in Petorca durch Avocadoanbau und überzeichnete Rechte, an der Laguna de Aculeo zusätzlich durch Entnahmen im Einzugsgebiet.</p>
+      </article>
+      <article>
+        <p class="hypo-nr">H2</p>
+        <p class="urteil urteil-teil">weitgehend bestätigt</p>
+        <p>In O’Higgins stieg der Anteil technisierter Bewässerung auf 82 Prozent, zugleich wuchs die Obstfläche. Die Literatur zum Effizienz-Paradox stützt die Hypothese. Für einen vollständigen Beleg fehlen uns Daten zur gesamten Entnahme pro Einzugsgebiet.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ QUELLEN ============ -->
+<section id="quellen" class="kap kap-quellen" aria-labelledby="kq">
+  <header class="kap-kopf">
+    <h2 id="kq">Quellen- und Bildverzeichnis</h2>
+    <p class="kap-lead">Alle Internetquellen zuletzt abgerufen am 23. Oktober 2026.</p>
+  </header>
+
+  <div class="quellen-raster">
+    <div>
+      <h3 class="klein-h">Fachliteratur</h3>
+      <ol class="qliste">
+        <li id="q-barria2021">Barría, P., Chadwick, C., Ocampo-Melgar, A., Galleguillos, M., Garreaud, R., Díaz-Vasconcellos, R. u. a. (2021): Water management or megadrought: what caused the Chilean Aculeo Lake drying? <i>Regional Environmental Change</i> 21, 19. doi:10.1007/s10113-021-01750-w</li>
+        <li id="q-boisier2016">Boisier, J. P., Rondanelli, R., Garreaud, R. D., Muñoz, F. (2016): Anthropogenic and natural contributions to the Southeast Pacific precipitation decline and recent megadrought in central Chile. <i>Geophysical Research Letters</i> 43 (1), 413–421. doi:10.1002/2015GL067265</li>
+        <li id="q-budds2004">Budds, J. (2004): Power, nature and neoliberalism: the political ecology of water in Chile. <i>Singapore Journal of Tropical Geography</i> 25 (3), 322–342. doi:10.1111/j.0129-7619.2004.00189.x</li>
+        <li id="q-carrasco2005">Carrasco, J. F., Casassa, G., Quintana, J. (2005): Changes of the 0 °C isotherm and the equilibrium line altitude in central Chile during the last quarter of the 20th century. <i>Hydrological Sciences Journal</i> 50 (6), 933–948. doi:10.1623/hysj.2005.50.6.933</li>
+        <li id="q-duran2020">Duran-Llacer, I., Munizaga, J., Arumí, J. L., Ruybal, C., Aguayo, M., Sáez-Carrillo, K., Arriagada, L., Rojas, O. (2020): Lessons to Be Learned: Groundwater Depletion in Chile’s Ligua and Petorca Watersheds through an Interdisciplinary Approach. <i>Water</i> 12 (9), 2446. doi:10.3390/w12092446</li>
+        <li id="q-garreaud2017">Garreaud, R. D., Alvarez-Garreton, C., Barichivich, J., Boisier, J. P., Christie, D., Galleguillos, M., LeQuesne, C. u. a. (2017): The 2010–2015 megadrought in central Chile: impacts on regional hydroclimate and vegetation. <i>Hydrology and Earth System Sciences</i> 21, 6307–6327. doi:10.5194/hess-21-6307-2017</li>
+        <li id="q-garreaud2020">Garreaud, R. D., Boisier, J. P., Rondanelli, R., Montecinos, A., Sepúlveda, H. H., Veloso-Aguila, D. (2020): The Central Chile Mega Drought (2010–2018): A climate dynamics perspective. <i>International Journal of Climatology</i> 40 (1), 421–439. doi:10.1002/joc.6219</li>
+        <li id="q-grafton2018">Grafton, R. Q., Williams, J., Perry, C. J., Molle, F., Ringler, C., Steduto, P., Udall, B. u. a. (2018): The paradox of irrigation efficiency. <i>Science</i> 361 (6404), 748–750. doi:10.1126/science.aat9314</li>
+        <li id="q-mccarthy2022">McCarthy, M., Meier, F., Fatichi, S., Stocker, B. D., Shaw, T. E., Miles, E., Dussaillant, I., Pellicciotti, F. (2022): Glacier Contributions to River Discharge During the Current Chilean Megadrought. <i>Earth’s Future</i> 10 (10), e2022EF002852. doi:10.1029/2022EF002852</li>
+        <li id="q-myers2000">Myers, N., Mittermeier, R. A., Mittermeier, C. G., da Fonseca, G. A. B., Kent, J. (2000): Biodiversity hotspots for conservation priorities. <i>Nature</i> 403, 853–858. doi:10.1038/35002501</li>
+        <li id="q-salazar2024">Salazar, Á., Thatcher, M., Goubanova, K., Bernal, P., Gutiérrez, J., Squeo, F. (2024): CMIP6 precipitation and temperature projections for Chile. <i>Climate Dynamics</i> 62, 2475–2498. doi:10.1007/s00382-023-07034-9</li>
+        <li id="q-valdes2020">Valdés-Pineda, R., García-Chevesich, P., Valdés, J. B., Pizarro-Tapia, R. (2020): The First Drying Lake in Chile: Causes and Recovery Options. <i>Water</i> 12 (1), 290. doi:10.3390/w12010290</li>
+      </ol>
+
+      <h3 class="klein-h">Amtliche Daten, Berichte und Gesetze</h3>
+      <ol class="qliste" start="13">
+        <li id="q-cnr">Comisión Nacional de Riego (CNR): Ley N° 18.450 de Fomento a la Inversión Privada en Obras de Riego y Drenaje (1985). Programmevaluation der DIPRES. dipres.gob.cl</li>
+        <li id="q-dmc">Dirección Meteorológica de Chile (DMC) (2026): Agua caída histórica mensual, Stationen Santiago Quinta Normal (330020), Curicó General Freire (340031) und Chillán Bernardo O’Higgins (360011). climatologia.meteochile.gob.cl/application/historico/aguaCaidaHistoricaMensual/330020</li>
+        <li id="q-fao2020">FAO (2020): The State of Food and Agriculture 2020. Overcoming water challenges in agriculture. Rom. doi:10.4060/cb1447en</li>
+        <li id="q-faowb2020">FAO und Banco Mundial (2020): Estudio agua e irrigación: brechas en agricultura. Documento preparado para discusión con Gobierno de Chile, Misión julio 2020. Darin Daten der DGA (2017) zum Wasserverbrauch nach Sektoren. documents1.worldbank.org</li>
+        <li id="q-heft">Materialien der Forschungswerkstatt „Landwirtschaft in den Subtropen“, Erdkunde LK Q1, Projekt 2026: M1 Wasser, M2 Didaktischer Wasser-Datensatz, M3 Klimawandel, Klimadaten (didaktischer Datensatz), Strategienvergleich.</li>
+        <li id="q-arclim">Ministerio del Medio Ambiente (MMA) (2020): Atlas de Riesgos Climáticos ARClim. Mit Centro de Cambio Global UC und Centro de Ciencia del Clima y la Resiliencia (CR2). arclim.mma.gob.cl</li>
+        <li id="q-mma2022">Ministerio del Medio Ambiente (MMA) (2022): Primera Comunicación de Adaptación de Chile. Santiago, Bericht an die UNFCCC, S. 11–12 (Projektionen des Atlas ARClim). unfccc.int</li>
+        <li id="q-odepa2022">Muñoz Q., A. (2022): Análisis de la evolución del sistema de riego en la Región del Libertador Bernardo O’Higgins en el período comprendido entre los catastros frutícolas Odepa-Ciren de los años 2018 y 2021. ODEPA, 24.08.2022. odepa.gob.cl</li>
+        <li id="q-nasa2023">NASA Earth Observatory (2023): Water Returns to Laguna de Aculeo. September 2023. earthobservatory.nasa.gov/images/151836</li>
+        <li id="q-odepa2019">ODEPA (2019): Ministro de Agricultura destaca que las cerezas desplazaron a las manzanas como la especie frutícola con mayor superficie plantada en el Maule. 27.08.2019. odepa.gob.cl</li>
+        <li id="q-ovalle2026">Ovalle R., J. (2026): Evolución del cultivo del cerezo en Chile: cambios varietales, tecnológicos y territoriales. ODEPA, 26.08.2026. odepa.gob.cl</li>
+        <li id="q-codigo1981">República de Chile (1981): DFL N° 1.122, Código de Aguas. bcn.cl/leychile</li>
+        <li id="q-ley21435">República de Chile (2022): Ley N° 21.435, Reforma el Código de Aguas. Diario Oficial, 06.04.2022. bcn.cl/leychile</li>
+      </ol>
+    </div>
+
+    <div>
+      <h3 class="klein-h">Presse und Fachportale</h3>
+      <ol class="qliste" start="26">
+        <li id="q-agraria2025">Agraria.pe (2025): Exportaciones chilenas de cerezas crecieron 50 % en volumen. 25.06.2025. agraria.pe</li>
+        <li id="q-meteored2025">Campos, D. (2025): ¿Se acabó la megasequía? Una mirada al estado actual de la crisis hídrica en Chile. Meteored, 31.05.2025. meteored.cl</li>
+        <li id="q-ciper2007">CIPER Chile (2007): Mujeres chilenas 4: Temporeras, eslabón olvidado del modelo económico. 12.12.2007. ciperchile.cl. Zahlen nach einer Studie der Universidad de Talca und des SERNAM.</li>
+        <li id="q-df2022">Diario Financiero (2022): Sequía: Cerca de la mitad de la población en el país se encuentra en situación de escasez hídrica. 14.03.2022. df.cl</li>
+        <li id="q-ernst2026">Ernst, B. (2026): Cereza austral: del sueño a la crisis. Portal Frutícola, 14.04.2026. portalfruticola.com</li>
+        <li id="q-ffp2025">Fresh Fruit Portal (2025): Final stretch of Chilean cherry season sees 51 % rise in exports. 19.03.2025. freshfruitportal.com</li>
+        <li id="q-fp2024">FreshPlaza (2024): Chilean fruit exports reached record figures from January to April. freshplaza.com</li>
+        <li id="q-freshplaza2026">FreshPlaza (2026): Chilean cherries aim to reduce their reliance on China. 07.07.2026. freshplaza.com</li>
+        <li id="q-aguasandinas">Infraestructura Pública: Las bondades del saneamiento; Aguas Andinas, Biofactoría La Farfana. infraestructurapublica.cl</li>
+        <li id="q-punilla">Infraestructura Pública (2025): Berichte zum Embalse La Punilla (Ñuble). infraestructurapublica.cl</li>
+        <li id="q-latercera2021">Montes, C. (2021): Chile ahora es oficialmente un país más caluroso y seco: Dirección Meteorológica actualiza patrones climáticos. La Tercera, 25.03.2021. latercera.com</li>
+        <li id="q-uc2021">Pontificia Universidad Católica de Chile (2021): La megasequía llegó para quedarse. uc.cl/noticias</li>
+        <li id="q-pf2024">Portal Frutícola (2024): Presentan catastros frutícolas de las regiones de Coquimbo, Atacama y O’Higgins. 04.11.2024. portalfruticola.com</li>
+        <li id="q-recarga">Portal Frutícola: Chile: Inauguran primer piloto de infiltración en Chile (Cuenca del Río Ligua, CNR). portalfruticola.com</li>
+        <li id="q-theclinic2025">The Clinic (2025): Tras cinco años sin agua reconocen la laguna de Aculeo como humedal urbano. 26.12.2025. theclinic.cl</li>
+        <li id="q-wehr2018">Wehr, I. (2018): The socio-environmental impact of the avocado industry in Petorca Province. Heinrich-Böll-Stiftung Cono Sur, 06.08.2018. cl.boell.org</li>
+        <li id="q-wiki">Wikipedia (2026): Klimatabellen der englischsprachigen Artikel „Santiago“, „Curicó“ und „Chillán“, Temperatur-Normalwerte 1991–2020 nach Angaben der Dirección Meteorológica de Chile. en.wikipedia.org</li>
+      </ol>
+
+      <h3 class="klein-h">Karten- und Geodaten</h3>
+      <ul class="qliste qliste-ohne">
+        <li>Höhendaten: Mapzen Terrain Tiles (Terrarium) auf Amazon Web Services, abgeleitet u. a. aus SRTM (NASA) und weiteren offenen Quellen. Karte 1, Querschnitt A–B und Flussnetz eigene Berechnung.</li>
+        <li>Grenzen, Regionen, Städte: Natural Earth, 1:10 Mio., gemeinfrei. naturalearthdata.com</li>
+      </ul>
+
+      <h3 class="klein-h">Bildnachweis</h3>
+      <ul class="qliste qliste-ohne bildnachweis">
+        <li>Santiago mit Anden: Güldem Üstün, „Chile (Santiago) Panoramic view of city and snow-capped Andes“, CC BY 2.0, Wikimedia Commons</li>
+        <li>Schnee in den Anden, 23.05.2019: NASA GSFC, MODIS Land Rapid Response Team, gemeinfrei</li>
+        <li>Colchagua-Tal: Hiroki Ogawa, „Winery Valle Colchagua Chile“, CC BY 3.0, Wikimedia Commons (Panoramio)</li>
+        <li>Petorca: Chacayuta46, „Petorca Chile“, CC BY-SA 4.0, Wikimedia Commons, unten beschnitten</li>
+        <li>Laguna de Aculeo, 18.05. und 07.09.2023: NASA Earth Observatory, Lauren Dauphin, Landsat-Daten USGS, gemeinfrei</li>
+        <li>Laguna de Aculeo, April 2026: Linkey, „Panorámica Laguna Aculeo 2026“, CC BY-SA 4.0, Wikimedia Commons</li>
+        <li>Süßkirschen in Chépica: Malissette, „Cerezas La Candelaria Chépica VI Región“, CC BY-SA 3.0, Wikimedia Commons</li>
+        <li>Wandbild in Quillota: Carlos Figueroa Rojas, „No es sequía es saqueo, Quillota 20200102 09“, CC BY-SA 4.0, Wikimedia Commons</li>
+        <li>Embalse El Yeso: Katharosinergia, „Sequía Embalse el Yeso“, CC BY-SA 4.0, Wikimedia Commons</li>
+        <li>Kirschernte: KI-generierte Illustration (Kie.ai, Modell Nano Banana Pro), keine Fotografie</li>
+      </ul>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="fuss">
+  <div>
+    <p class="fuss-titel">Valle Central · Landwirtschaft in den Subtropen</p>
+    <p>Forschungswerkstatt Erdkunde LK Q1, Gruppe C · Schuljahr 2026/27</p>
+    <p>Gruppe: Hugo, Leo, Aaron · Lehrer: Marius Gregg</p>
+  </div>
+</footer>
+
+<script src="assets/js/data.js"></script>
+<script src="assets/js/gsap.min.js"></script>
+<script src="assets/js/ScrollTrigger.min.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

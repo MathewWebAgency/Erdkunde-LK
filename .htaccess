@@ -1,0 +1,30 @@
+# ---------------------------------------------------------------
+# Wurzel des Repositorys = public_html auf Hostinger.
+# Hostinger spielt bei jedem Push das ganze Repository nach public_html.
+# Die Website selbst liegt in site/. Diese Datei macht site/ zur
+# Wurzel der Domain und sperrt alles andere (Konzept, Übergabe, Skripte).
+# Nicht löschen: ohne sie zeigt die Startseite 403.
+# ---------------------------------------------------------------
+
+Options -Indexes
+ErrorDocument 404 /site/404.html
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # HTTPS erzwingen
+  RewriteCond %{HTTPS} !=on
+  RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
+
+  # Wer /site/... direkt aufruft, landet auf der sauberen Adresse ohne /site/
+  RewriteCond %{THE_REQUEST} \s/site/([^?\s]*) [NC]
+  RewriteRule ^ /%1 [R=301,L]
+
+  # Zertifikatsprüfung von Hostinger nicht umleiten
+  RewriteRule ^\.well-known/ - [L]
+
+  # Alles andere wird intern aus site/ geliefert. Dateien außerhalb von
+  # site/ sind damit von außen nicht erreichbar.
+  RewriteCond %{REQUEST_URI} !^/site/
+  RewriteRule ^(.*)$ site/$1 [L]
+</IfModule>
